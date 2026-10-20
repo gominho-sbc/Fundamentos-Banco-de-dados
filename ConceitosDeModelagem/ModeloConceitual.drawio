@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="WCRYDF-JWblGg6VLEZ4g">
-    <mxGraphModel dx="1704" dy="895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="851" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -89,6 +89,88 @@
         </mxCell>
         <mxCell id="brrQAnaPlsISC2a0XBrS-32" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=20;" value="nome_curso" vertex="1">
           <mxGeometry height="40" width="100" x="180" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="brrQAnaPlsISC2a0XBrS-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;p&gt;&lt;strong&gt;Exercício 4 - Biblioteca.&lt;/strong&gt; Leia o minimundo, liste as entidades e os atributos com seus tipos e desenhe no &lt;a href=&quot;http://draw.io&quot;&gt;draw.io&lt;/a&gt;:&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;Uma biblioteca quer controlar seus &lt;b&gt;livros&lt;/b&gt;. Cada livro é identificado pelo &lt;b&gt;ISBN &lt;/b&gt;e tem &lt;b&gt;título&lt;/b&gt;, &lt;b&gt;editora&lt;/b&gt;, &lt;b&gt;ano de publicação&lt;/b&gt; e &lt;b&gt;número de páginas&lt;/b&gt;. A biblioteca também quer cadastrar os &lt;b&gt;autores&lt;/b&gt;, identificados por um &lt;b&gt;código&lt;/b&gt;, com &lt;b&gt;nome &lt;/b&gt;e &lt;b&gt;nacionalidade&lt;/b&gt;. Os &lt;b&gt;leitores &lt;/b&gt;são identificados por um &lt;b&gt;código de leitor;&lt;/b&gt; deles, a biblioteca guarda &lt;b&gt;nome&lt;/b&gt;, &lt;b&gt;data de nascimento&lt;/b&gt;, um ou mais &lt;b&gt;telefones &lt;/b&gt;e &lt;b&gt;endereço &lt;/b&gt;(&lt;b&gt;rua&lt;/b&gt;, &lt;b&gt;número &lt;/b&gt;e &lt;b&gt;bairro&lt;/b&gt;). A bibliotecária quer saber a &lt;b&gt;idade dos leitores&lt;/b&gt;.&lt;/p&gt;&lt;/blockquote&gt;" vertex="1">
+          <mxGeometry height="100" width="760" x="40" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="brrQAnaPlsISC2a0XBrS-38" parent="1" style="whiteSpace=wrap;html=1;align=center;dashed=1;" value="Leitores" vertex="1">
+          <mxGeometry height="40" width="100" x="150" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="brrQAnaPlsISC2a0XBrS-39" parent="1" style="whiteSpace=wrap;html=1;align=center;dashed=1;" value="Livros" vertex="1">
+          <mxGeometry height="40" width="100" x="160" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="brrQAnaPlsISC2a0XBrS-48" edge="1" parent="1" source="brrQAnaPlsISC2a0XBrS-41" style="edgeStyle=orthogonalEdgeStyle;shape=wire;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;defaultLabelBackgroundColor=gap;" target="brrQAnaPlsISC2a0XBrS-39" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="brrQAnaPlsISC2a0XBrS-41" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=20;dashed=1;" value="titulo" vertex="1">
+          <mxGeometry height="40" width="100" x="160" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="brrQAnaPlsISC2a0XBrS-47" edge="1" parent="1" source="brrQAnaPlsISC2a0XBrS-42" style="edgeStyle=orthogonalEdgeStyle;shape=wire;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;defaultLabelBackgroundColor=gap;" target="brrQAnaPlsISC2a0XBrS-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="brrQAnaPlsISC2a0XBrS-42" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=20;dashed=1;" value="isbn" vertex="1">
+          <mxGeometry height="40" width="100" x="40" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="brrQAnaPlsISC2a0XBrS-46" edge="1" parent="1" source="brrQAnaPlsISC2a0XBrS-43" style="edgeStyle=orthogonalEdgeStyle;shape=wire;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;defaultLabelBackgroundColor=gap;entryX=0.307;entryY=-0.075;entryDx=0;entryDy=0;entryPerimeter=0;" target="brrQAnaPlsISC2a0XBrS-39" value="">
+          <mxGeometry relative="1" x="0.287" as="geometry" />
+        </mxCell>
+        <mxCell id="brrQAnaPlsISC2a0XBrS-43" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=20;dashed=1;" value="editora" vertex="1">
+          <mxGeometry height="40" width="100" x="40" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="brrQAnaPlsISC2a0XBrS-49" edge="1" parent="1" source="brrQAnaPlsISC2a0XBrS-44" style="edgeStyle=orthogonalEdgeStyle;shape=wire;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;defaultLabelBackgroundColor=gap;" target="brrQAnaPlsISC2a0XBrS-39">
+          <mxGeometry relative="1" x="-0.0769" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="brrQAnaPlsISC2a0XBrS-44" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=20;dashed=1;" value="ano_publicacao" vertex="1">
+          <mxGeometry height="40" width="100" x="280" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="brrQAnaPlsISC2a0XBrS-50" edge="1" parent="1" source="brrQAnaPlsISC2a0XBrS-45" style="edgeStyle=orthogonalEdgeStyle;shape=wire;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;dashed=1;defaultLabelBackgroundColor=gap;" target="brrQAnaPlsISC2a0XBrS-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="brrQAnaPlsISC2a0XBrS-45" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=20;dashed=1;" value="numero_paginas" vertex="1">
+          <mxGeometry height="60" width="100" x="280" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="brrQAnaPlsISC2a0XBrS-51" parent="1" style="whiteSpace=wrap;html=1;align=center;dashed=1;" value="Livros" vertex="1">
+          <mxGeometry height="40" width="100" x="570" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="brrQAnaPlsISC2a0XBrS-54" edge="1" parent="1" source="brrQAnaPlsISC2a0XBrS-55" style="edgeStyle=orthogonalEdgeStyle;shape=wire;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;defaultLabelBackgroundColor=gap;" target="brrQAnaPlsISC2a0XBrS-51">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="brrQAnaPlsISC2a0XBrS-55" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=20;dashed=1;" value="telefone" vertex="1">
+          <mxGeometry height="40" width="100" x="450" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="brrQAnaPlsISC2a0XBrS-56" edge="1" parent="1" source="brrQAnaPlsISC2a0XBrS-57" style="edgeStyle=orthogonalEdgeStyle;shape=wire;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;defaultLabelBackgroundColor=gap;entryX=0.307;entryY=-0.075;entryDx=0;entryDy=0;entryPerimeter=0;" target="brrQAnaPlsISC2a0XBrS-51" value="">
+          <mxGeometry relative="1" x="0.287" as="geometry" />
+        </mxCell>
+        <mxCell id="brrQAnaPlsISC2a0XBrS-57" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=20;dashed=1;" value="data_nascimento" vertex="1">
+          <mxGeometry height="40" width="100" x="450" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="brrQAnaPlsISC2a0XBrS-58" edge="1" parent="1" source="brrQAnaPlsISC2a0XBrS-59" style="edgeStyle=orthogonalEdgeStyle;shape=wire;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;defaultLabelBackgroundColor=gap;" target="brrQAnaPlsISC2a0XBrS-51">
+          <mxGeometry relative="1" x="-0.0769" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="brrQAnaPlsISC2a0XBrS-59" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=20;dashed=1;" value="endereco" vertex="1">
+          <mxGeometry height="40" width="100" x="690" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="brrQAnaPlsISC2a0XBrS-60" edge="1" parent="1" source="brrQAnaPlsISC2a0XBrS-61" style="edgeStyle=orthogonalEdgeStyle;shape=wire;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;dashed=1;defaultLabelBackgroundColor=gap;" target="brrQAnaPlsISC2a0XBrS-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="brrQAnaPlsISC2a0XBrS-61" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=20;dashed=1;" value="nome" vertex="1">
+          <mxGeometry height="60" width="100" x="690" y="780" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
