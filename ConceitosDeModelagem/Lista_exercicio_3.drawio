@@ -1,10 +1,10 @@
 <mxfile host="Electron" pages="5">
   <diagram id="QWJO1fAmhtrf9V_ukzX2" name="exercicio-1">
-    <mxGraphModel dx="906" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="922" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="CuEHlAc23hKp-LwonMK6-2" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;h2&gt;LISTA 3  - Cardinalidades&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Exercício 1 — Qual a cardinalidade máxima?&lt;/strong&gt; Classifique como &lt;em&gt;1:1, 1:N&lt;/em&gt; ou &lt;em&gt;N:N&lt;/em&gt;:&lt;/p&gt;&lt;ol&gt;&lt;br&gt;&lt;li&gt;Um país tem uma única capital, e cada capital é de um único país. (1,1)&lt;/li&gt;&lt;br&gt;&lt;li&gt;Um time tem vários jogadores; cada jogador joga em um único time. (1,N) - (1,1) = (1,N)&lt;/li&gt;&lt;br&gt;&lt;li&gt;Um ator atua em vários filmes, e um filme tem vários atores. (1,N) - (1,N) = (N,N)&lt;/li&gt;&lt;br&gt;&lt;li&gt;Um cliente faz vários pedidos; cada pedido é de um único cliente. (0,N) - (1,N) = (N, N)&lt;/li&gt;&lt;br&gt;&lt;li&gt;Cada carro tem uma única placa, e cada placa pertence a um único carro. (0,1) - (1,1) = (1,1)&lt;/li&gt;&lt;br&gt;&lt;li&gt;Um médico atende vários pacientes, e um paciente pode ser atendido por vários médicos. (0, N) - (1,N) = (N, N)&lt;/li&gt;&lt;br&gt;&lt;/ol&gt;" vertex="1">
+        <mxCell id="CuEHlAc23hKp-LwonMK6-2" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;h2&gt;LISTA 3  - Cardinalidades&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Exercício 1 — Qual a cardinalidade máxima?&lt;/strong&gt; Classifique como &lt;em&gt;1:1, 1:N&lt;/em&gt; ou &lt;em&gt;N:N&lt;/em&gt;:&lt;/p&gt;&lt;ol&gt;&lt;br&gt;&lt;li&gt;Um país tem uma única capital, e cada capital é de um único país. (1,1)&lt;/li&gt;&lt;br&gt;&lt;li&gt;Um time tem vários jogadores; cada jogador joga em um único time. (1,N) - (1,1) = (1,N)&lt;/li&gt;&lt;br&gt;&lt;li&gt;Um ator atua em vários filmes, e um filme tem vários atores. (1,N) - (1,N) = (N,N)&lt;/li&gt;&lt;br&gt;&lt;li&gt;Um cliente faz vários pedidos; cada pedido é de um único cliente. (0,N) - (1,1) = (1, N)&lt;/li&gt;&lt;br&gt;&lt;li&gt;Cada carro tem uma única placa, e cada placa pertence a um único carro. (0,1) - (1,1) = (1,1)&lt;/li&gt;&lt;br&gt;&lt;li&gt;Um médico atende vários pacientes, e um paciente pode ser atendido por vários médicos. (0, N) - (1,N) = (N, N)&lt;/li&gt;&lt;br&gt;&lt;/ol&gt;" vertex="1">
           <mxGeometry height="350" width="760" x="40" y="40" as="geometry" />
         </mxCell>
       </root>
@@ -525,7 +525,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="exercicio-5" id="6TYFGzFD6AE1iBSKylxj">
-    <mxGraphModel dx="1178" dy="701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1085" dy="979" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="HOMLP5aOakUwMV5PkVBD-0" />
         <mxCell id="HOMLP5aOakUwMV5PkVBD-1" parent="HOMLP5aOakUwMV5PkVBD-0" />
@@ -615,7 +615,7 @@
         <mxCell id="EneuE3vLkaymVNmoEaKR-26" parent="HOMLP5aOakUwMV5PkVBD-1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;fillColor=#fff2cc;strokeColor=#d6b656;" value="numero" vertex="1">
           <mxGeometry height="40" width="100" x="702" y="390" as="geometry" />
         </mxCell>
-        <mxCell id="EneuE3vLkaymVNmoEaKR-30" parent="HOMLP5aOakUwMV5PkVBD-1" style="whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="PIZZA" vertex="1">
+        <mxCell id="EneuE3vLkaymVNmoEaKR-30" parent="HOMLP5aOakUwMV5PkVBD-1" style="whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="CARDAPIO" vertex="1">
           <mxGeometry height="40" width="100" x="572" y="750" as="geometry" />
         </mxCell>
         <mxCell id="EneuE3vLkaymVNmoEaKR-32" edge="1" parent="HOMLP5aOakUwMV5PkVBD-1" source="EneuE3vLkaymVNmoEaKR-31" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="EneuE3vLkaymVNmoEaKR-3">
@@ -627,7 +627,7 @@
         <mxCell id="EneuE3vLkaymVNmoEaKR-45" edge="1" parent="HOMLP5aOakUwMV5PkVBD-1" source="EneuE3vLkaymVNmoEaKR-31" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="EneuE3vLkaymVNmoEaKR-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EneuE3vLkaymVNmoEaKR-31" parent="HOMLP5aOakUwMV5PkVBD-1" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="tem" vertex="1">
+        <mxCell id="EneuE3vLkaymVNmoEaKR-31" parent="HOMLP5aOakUwMV5PkVBD-1" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="contem" vertex="1">
           <mxGeometry height="60" width="120" x="562" y="620" as="geometry" />
         </mxCell>
         <mxCell id="EneuE3vLkaymVNmoEaKR-36" edge="1" parent="HOMLP5aOakUwMV5PkVBD-1" source="EneuE3vLkaymVNmoEaKR-34" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="EneuE3vLkaymVNmoEaKR-3">
@@ -641,14 +641,6 @@
         </mxCell>
         <mxCell id="EneuE3vLkaymVNmoEaKR-35" parent="HOMLP5aOakUwMV5PkVBD-1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="&lt;span style=&quot;border-bottom: 1px dotted;&quot;&gt;hora&lt;/span&gt;" vertex="1">
           <mxGeometry height="40" width="100" x="712" y="560" as="geometry" />
-        </mxCell>
-        <mxCell id="EneuE3vLkaymVNmoEaKR-40" edge="1" parent="HOMLP5aOakUwMV5PkVBD-1" source="EneuE3vLkaymVNmoEaKR-41" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="EneuE3vLkaymVNmoEaKR-31">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="481" y="710" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EneuE3vLkaymVNmoEaKR-41" parent="HOMLP5aOakUwMV5PkVBD-1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="valor" vertex="1">
-          <mxGeometry height="40" width="100" x="432" y="630" as="geometry" />
         </mxCell>
         <mxCell id="EneuE3vLkaymVNmoEaKR-43" parent="HOMLP5aOakUwMV5PkVBD-1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="quantidade" vertex="1">
           <mxGeometry height="40" width="100" x="712" y="630" as="geometry" />
@@ -668,7 +660,7 @@
         <mxCell id="EneuE3vLkaymVNmoEaKR-54" edge="1" parent="HOMLP5aOakUwMV5PkVBD-1" source="EneuE3vLkaymVNmoEaKR-52" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" target="EneuE3vLkaymVNmoEaKR-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EneuE3vLkaymVNmoEaKR-52" parent="HOMLP5aOakUwMV5PkVBD-1" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="entregue" vertex="1">
+        <mxCell id="EneuE3vLkaymVNmoEaKR-52" parent="HOMLP5aOakUwMV5PkVBD-1" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="entrega" vertex="1">
           <mxGeometry height="60" width="120" x="562" y="330" as="geometry" />
         </mxCell>
         <mxCell id="EneuE3vLkaymVNmoEaKR-58" edge="1" parent="HOMLP5aOakUwMV5PkVBD-1" source="EneuE3vLkaymVNmoEaKR-57" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="EneuE3vLkaymVNmoEaKR-30">
@@ -706,6 +698,21 @@
         </mxCell>
         <mxCell id="EneuE3vLkaymVNmoEaKR-69" parent="HOMLP5aOakUwMV5PkVBD-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="(N, N)" vertex="1">
           <mxGeometry height="30" width="60" x="612" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="a2g5FQfRLVt_vV6-x-yF-1" edge="1" parent="HOMLP5aOakUwMV5PkVBD-1" source="a2g5FQfRLVt_vV6-x-yF-0" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="EneuE3vLkaymVNmoEaKR-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a2g5FQfRLVt_vV6-x-yF-0" parent="HOMLP5aOakUwMV5PkVBD-1" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;" value="valor" vertex="1">
+          <mxGeometry height="40" width="100" x="432" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="lDSxnBh4CCxZtYhe56f_-0" parent="HOMLP5aOakUwMV5PkVBD-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="(0,N)" vertex="1">
+          <mxGeometry height="30" width="60" x="500" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="lDSxnBh4CCxZtYhe56f_-1" parent="HOMLP5aOakUwMV5PkVBD-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="(1,1)" vertex="1">
+          <mxGeometry height="30" width="60" x="574" y="446" as="geometry" />
+        </mxCell>
+        <mxCell id="lDSxnBh4CCxZtYhe56f_-2" parent="HOMLP5aOakUwMV5PkVBD-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="(1, N)" vertex="1">
+          <mxGeometry height="30" width="60" x="640" y="310" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
