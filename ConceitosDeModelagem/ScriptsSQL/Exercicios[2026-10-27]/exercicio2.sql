@@ -1,7 +1,7 @@
 /*Exercício 2 — Encontre os erros. O script abaixo tem 5 erros. Encontre e corrija:*/
 
 CREATE TABLE PRODUTO (
-    codigo INT,
+    codigo INT NOT NULL,
     descricao VARCHAR(100) NOT NULL,
     preco DECIMAL(10,2) NOT NULL,
     CONSTRAINT PK_PRODUTO PRIMARY KEY (codigo)

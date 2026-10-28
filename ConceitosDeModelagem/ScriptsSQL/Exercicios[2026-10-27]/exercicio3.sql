@@ -14,23 +14,22 @@ USE BancoEscola;
 
 CREATE TABLE ALUNO (
 	id_aluno int primary key
-
 );
 
 ALTER TABLE ALUNO 
 ADD cpf varchar(15) not null;
 
 ALTER TABLE ALUNO
-ADD nome_curso varchar(120) not null;
+ADD nome_curso VARCHAR(120) not null;
 
 ALTER TABLE ALUNO
-alter column cpf varchar(15) not null;
+ALTER COLUMN cpf varchar(15) not null;
 
 ALTER TABLE ALUNO
 ADD data_nascimento int not null
 
 ALTER TABLE ALUNO 
-ADD constraint ck_aluno_data_nascimento check (data_nascimento < getdate())
+ADD CONSTRAINT ck_aluno_data_nascimento CHECK (data_nascimento < getdate())
 
 ALTER TABLE ALUNO
 DROP COLUMN cpf
